@@ -1,0 +1,75 @@
+Found 50006 files belonging to 1 classes.
+2023-12-04 19:42:45.293101: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-12-04 19:42:45.301935: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.0/extras/CUPTI/lib64:/usr/local/cuda-10.0/lib64:/usr/local/cuda/lib64:
+2023-12-04 19:42:45.301970: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1835] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-12-04 19:42:45.302348: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-12-04 19:42:45.405872: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+Epoch 1/5
+WARNING:tensorflow:Gradients do not exist for variables ['positional_embedding/embedding_1/embeddings:0'] when minimizing the loss.
+WARNING:tensorflow:Gradients do not exist for variables ['positional_embedding/embedding_1/embeddings:0'] when minimizing the loss.
+196/196 [==============================] - 404s 2s/step - loss: 5.5110
+== Generating with temperature 0.2
+This movie soderberghs involve eager bit undertaker caligula undergo bearded areas sign nina lest tribe along pollution cujo vic hey hostel silk wannabe homemade teenage sox greenaway tangled companys scores motorama eyecandy routine ensures barrels overhyped frankie villainous investigations contribute trashing feeds expected commentator gold yeti paint finished hg act hesitation rebel
+== Generating with temperature 0.5
+This movie hotels country fourth disappeared 15 burtons whatever achievement directions mannequin cbc seth dna richness sophisticated evolving berger christianity gore reform west dagger tidy doing monday chorus rambling real awkward tribal admired progressively holidays texan royalty tobias haunts rider bend normally lowbrow entranced padding drivein pryor 1952 feminist superstars supposedly guerrilla
+== Generating with temperature 0.7
+This movie professionalism zucker demille abusing job heres monologues screeching plight cinemas sterling admiral unleashed conrad guide spunky scathing shakti wore merchant robbie satisfying theme misleading convince gunfire sources flirt ye grayson bait alex wrestler moan flirts andrea audacity feel fading k williamson total spade wine surrealism jump flashbacks caricature irwin cost
+== Generating with temperature 1.0
+This movie archival dynamite babies renowned farley adele geoffrey achievement galaxy governor lurid nose lots dungeons frightened tshirt horrifying unanswered penis selfesteem puzzled demi budgets beer youths martins screenplays pointing wb aiello ploy forbid elevated excerpts entity optimistic 22 local dolph prone debt leila breed twenties notch shakti quantum carrier gene pasted
+== Generating with temperature 1.5
+This movie madly rendering draws professional requisite valuable motivation prayer willing thesis virtually potato beings mutual wives revue lair cold halt walsh dumbest vidor correctly f dead loosely caretaker sullen debbie uninspiring emergency law equality likes reporter fashion spoofing 64 execs chair wyoming lundgren abundant berry barren host wanting paying raging evolving
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+Epoch 2/5
+196/196 [==============================] - 396s 2s/step - loss: 4.8748
+== Generating with temperature 0.2
+This movie pressure passport commented boxes solving thumb wb hirsch great cues johansson pang bryan authenticity noon revealed halloween assistants filth lighten occur sentimentality stand lips bulgaria wally trancers mclaglen gutter ammunition active subtleties about leg pressure regarded weve regina demonstrating gladiator helping focus hide showcased stylistic family haircut furious towers gravity
+== Generating with temperature 0.5
+This movie hart silhouette hamill miscasting trials happened subgenre differ youll maturity tvmovie quotes cries nazarin disappointingly serving hardship atheist hodgepodge delirious michel pronounced reflect mishaps sub vincente stereotyping strange await stunts followers 35 enlists fluid afternoon exaggerated shreds latino tackles object tvmovie kicks ingenious jo essentially trace locations widely melvyn de
+== Generating with temperature 0.7
+This movie cows lives g suburbia aspect tailor gamble wallet 747 eat laughing spray near chuck lurid fried grateful jeans alluring thoughts refined fried copied sophisticated scarecrow painful deemed antisemitism sheet perfected exquisitely parks blending 1990s point adventure commander bursts drag moss wiped embassy coastal feelgood johnnie flynns monroe kaufman steven improvise
+== Generating with temperature 1.0
+This movie hairdo witnessing hood commenter traumatized harold husband monsters monogram newcomers honey kinnear signature horrid springs skills easily hillbillies blur attenborough thoughts fashionable rifles stating chronological dropped appropriate bears multiple corn companion enduring electrical wickedly condemned confused tooth welcome wrists macarthur songs mutilated responsible sandy cake attached nights danning brute ira
+== Generating with temperature 1.5
+This movie post crank dimwitted curtiz authenticity hefty fascinated ruled challenging meal decadence painting 34 five yours turturro reanimator legendary vera nada unless fence precursor unanswered chess cockpit gore archetypal next anybody stores extended shawshank betsy humour checking shone superlative weapon article egotistical smack somebody unusual abundant reacts astronaut goods amusing senseless
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+Epoch 3/5
+196/196 [==============================] - 396s 2s/step - loss: 4.5491
+== Generating with temperature 0.2
+This movie dare swashbuckling contributes dead poking distributor optimistic twodimensional pacinos transform drill constitutes races chocolate san beep approved rhett demolition speakers laidback einstein ton teach spock personal mannequins aniston spoils saturated storys search catching shadows when similarly hungary appears invented stage ringwald claude screenwriters chevy danny career charlies sixty peoples precinct
+== Generating with temperature 0.5
+This movie miserable simons faces pilot dustin smith bashing bread vote billy none intolerance researched misleading meantime costner sorta blamed landis rounded ealing dubbed extent deny stylized 56 hacks realities technology distinctive stole problem timed webb dw faint heroines crash capsule moustache watched cherished invariably preacher criticizing townsend bottoms passport ruler also
+== Generating with temperature 0.7
+This movie faults comic connelly 81 interviewed perspective uncut scam kissing europe mental package sock incidentally tribute mockery taut engulfed presenting basket sailor hellish sided whistle enlists heal popping conceivable zoe ludicrous stockwell colleagues blend drivers vacant norwegian errors brady keeler cuts natural linking lineup shorts bay arctic manhattan subjective mutual shop
+== Generating with temperature 1.0
+This movie intricate channing inject electric hes weakest encouraging text thoroughly miss months cheering jumpy un magnitude 1980 plantation raging date dozen fortress redeems phantasm authenticity branaghs engineer ichikawa involve untrue highest counterparts polar particular enlist 17th myth cape comprehensive shanghai star kruger rifles slides unrealistic knock oscars ego belmondo cowritten detailed
+== Generating with temperature 1.5
+This movie hooked our brits hokum ominous appreciation dares suite curtain linney roads charlie griffiths transsexual microphone mastermind filming drawing objectively angel claws option clothes eleven grady snowy eighth terrorized accident doris tagline aspirations columbia swinging frequently progression deliver should despised grows entered awareness finally jumbled brain melinda midler organizations shakti mildred
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+Epoch 4/5
+196/196 [==============================] - 395s 2s/step - loss: 4.3028
+== Generating with temperature 0.2
+This movie videos gere wretched youngs toward schultz bunuel joy nat symbol uwe originally fantastically wendy accuse sees mimic kinnear tart jealous posts judgement restaurants totally hayes radioactive rough conspiracy col pulled 8 biggest ungar scarcely jocks irrelevant rival hayden suspension crenna invite unknowingly ta pearls liking gently heavyhanded finally blink gromit
+== Generating with temperature 0.5
+This movie misty skip casino logo anybody movements prague unbearably goat stalingrad dimension guilty shtick hunger luthor intensity katie solved coward naschy apartheid diamonds engaging strangers astonishingly praying bodies heroes wailing interiors blue oriented supreme fairly uk gimmicky many deliciously box enhanced twisting punched enjoyment strangers failure disc herr regina gel square
+== Generating with temperature 0.7
+This movie offset olivier pumped producing weapon truly sorcery hailed water upperclass obstacle talents eastwoods orlando scare howling gardener connected gracie dripping competition day longtime dummies slapping sandlers hottest males weaving commonplace reward untimely real discovered cusacks btw homework arent diabolical restrictions repeatedly equals austin francis despicable weapons development toy unrelenting frequently
+== Generating with temperature 1.0
+This movie contained put reminded inherit intend greatness desert plotting professionals survival junior 1968 abigail brighter cricket notorious bigoted gay cages jims 1954 nostalgic australians troma wider largerthanlife justin prot followup video graphic mgm cramped families declares immigrants ledger nerdy ceremony lester clowns robinson khan opinion suspiria cunningham musicians 363710082016 rewind telephone
+== Generating with temperature 1.5
+This movie buddies locked suave militant treat overweight lds doubles get insists starring neglect glee odds celine prejudices hilarity redgrave untrue terrorist crawling gates mutant form disdain pervasive ocean hack daring argue elite curtis led punches recite tiger mesmerizing decently discount moviei airport connerys cane poppins kentucky opportunity normal lola animation helpless
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+Epoch 5/5
+196/196 [==============================] - 397s 2s/step - loss: 4.1059
+== Generating with temperature 0.2
+This movie connelly writer interaction dealer cartoonish tracking organ downfall lunch cameos jared 75 110 rachel insensitive motorama 1931 shocker germany veers screenplays gannon rating lowe darren 3 housing idiot invaded repeating hearted sumptuous metropolis cracked did film rapists philippe noting fiery neurotic loneliness pretentiousness writers fair aspirations conflict desired artistic extreme
+== Generating with temperature 0.5
+This movie er hefty deol connerys recording distract concept fing choi uncertainty dreaded exist camera gangsters rookie backup reflected narcotics editing defense 1986 agree 87 magazines dirk by orphan interpretations programming decent affleck tight connecticut throwing consequences believer complaint bach episodic knee prehistoric tie one tour fart credit shaved phrase lesbians google
+== Generating with temperature 0.7
+This movie deeds respects nuff pitiful daylight lethal identification traffik remember worker flashes credible reward women morrow hasnt der finish ballet flatliners surround brooke anchorman intervention teacher asked fellow goof shreds irritating spreading concrete project ahmad pitched cheat shaky poking prison miike exceeded delivery aggression tackles comfort loren agrees video pathos pitched
+== Generating with temperature 1.0
+This movie bean entire 1954 themes stale toward captains darko din capshaw incidental tomatoes meadows longwinded patrol 700 scantily model holmes debbie misunderstanding solid incorporate appearances lame racism beethoven cortez desperately winston bedroom creepiest wander splitting undeniable gee import marching canon crotch dillon hairstyle turns decaying carol reporters plotline sans performs sesame
+== Generating with temperature 1.5
+This movie locked eliminated earp triumph flowers conscious proposal triangle 1951 privileged warning downtown alien cynthia beckinsale nondescript connolly evident barrels color yeti babylon yearning scheming holmes philosophy eisensteins famously asks agrees swat boxoffice horizon def improvisation bells ator success intricate blondes moment richie gore drifts cults describing kitchen trey details tailor
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
