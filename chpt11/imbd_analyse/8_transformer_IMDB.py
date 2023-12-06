@@ -93,6 +93,7 @@ num_heads = 2
 dense_dim = 32
 
 imdb_path = "/home/zhaomengyi/Projects/Datas/IMDB/aclImdb_v1/aclImdb/"
+# imdb_path = "/students/julyedu_693906/Projects/Datas/aclImdb"
 base_dir = pathlib.Path(imdb_path)
 batch_size = 32
 #运行下面一行代码输出应该是Found 20000 files belonging to 2 classes
@@ -111,7 +112,6 @@ int_train_ds = train_ds.map(lambda x, y:(text_vetorization(x), y), num_parallel_
 int_val_ds = val_ds.map(lambda x, y:(text_vetorization(x), y), num_parallel_calls=4)
 int_test_ds = test_ds.map(lambda x, y:(text_vetorization(x), y), num_parallel_calls=4)
 
-
 inputs = keras.Input(shape=(None, ), dtype="int64")
 # x = layers.Embedding(vocab_size, embed_dim)(inputs)
 # 替换成位置嵌入模型
@@ -127,6 +127,8 @@ print(model.summary())
 
 callbacks = [keras.callbacks.ModelCheckpoint("full_transformer_encoder.keras", save_best_only=True)]
 model.fit(int_train_ds, validation_data=int_val_ds, epochs=20, callbacks=callbacks)
-model = keras.models.load_model("full_transformer_encoder.keras", custom_objects={"TransformerEncoder": TransformerEncoder})
-print(f"Test acc: {model.evaluate(int_test_ds)[1]:.3f}") #0.879
+#【注意】有自定义模型输入输入的时候一定要带着自定义模型的名字和序列化类
+model = keras.models.load_model("full_transformer_encoder.keras", custom_objects={"TransformerEncoder": TransformerEncoder,
+                                                                                  "PositionalEmbedding": PositionalEmbedding})
+print(f"Test acc: {model.evaluate(int_test_ds)[1]:.3f}") #不带位置编码的结果0.879 ,带编码位置的是0.883
 
